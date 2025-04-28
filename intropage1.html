@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>개인 소개 페이지</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f9;
+        color: #333;
+        margin: 0;
+        padding: 0;
+      }
+
+      header {
+        background-color: grey;
+        color: white;
+        text-align: center;
+        padding: 20px 0;
+      }
+
+      .container {
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px 0;
+      }
+
+      h1,
+      h2 {
+        color: #333;
+      }
+
+      ul {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      li {
+        background-color: #fff;
+        margin: 10px 0;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      footer {
+        text-align: center;
+        padding: 20px;
+        background-color: #333;
+        color: white;
+      }
+      .button {
+        display: inline-block;
+        background-color: #4caf50;
+        color: white;
+        padding: 12px 24px;
+        font-size: 16px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 5px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition:
+          background-color 0.3s ease,
+          transform 0.3s ease;
+      }
+
+      .button:hover {
+        background-color: #45a049;
+        transform: translateY(-2px);
+      }
+
+      .button:active {
+        background-color: #3e8e41;
+        transform: translateY(2px);
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>박건호 페이지</h1>
+    </header>
+
+    <div class="container">
+      <h2>진행한 업무 목록</h2>
+      <ul>
+        <li>
+          <h3>레포지토리 만들기</h3>
+          <p>
+            새로운 프로젝트를 시작하기 위해 GitHub에서 레포지토리를 생성하고
+            초기화 작업을 완료했습니다.
+          </p>
+        </li>
+        <li>
+          <h3>허스키, 프리티어, ESLint 세팅</h3>
+          <p>
+            코드 품질을 유지하기 위해 허스키(husky)로 Git hook을 설정하고,
+            프리티어(prettier)와 ESLint로 자동 포맷팅과 코드 품질 검사 기능을
+            추가했습니다.
+          </p>
+        </li>
+        <li>
+          <h3>커밋 컨벤션 강제하는 커밋린트 세팅</h3>
+          <p>
+            커밋 메시지 규칙을 강제하기 위해 CommitLint를 설정하여 일정한 규칙에
+            맞게 커밋 메시지를 작성하도록 유도했습니다.
+          </p>
+        </li>
+        <li>
+          <h3>이슈 컨벤션 연결</h3>
+          <p>
+            GitHub의 이슈 템플릿을 설정하여, 각 이슈를 생성할 때 규칙에 맞는
+            템플릿을 사용할 수 있도록 했습니다. 이를 통해 효율적인 이슈 관리가
+            가능해졌습니다.
+          </p>
+        </li>
+      </ul>
+
+      <div style="display: flex; justify-content: center">
+        <a href="index.html" class="button">Home</a>
+      </div>
+    </div>
+
+    <footer>
+      <p>250428 - KB IT's your life!</p>
+    </footer>
+  </body>
+</html>
